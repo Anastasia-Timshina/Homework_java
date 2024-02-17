@@ -1,5 +1,6 @@
 import lesson_0.HelloWorld;
 import lesson_2.CalculateTwoOperands;
+import lesson_2.EvenNumber;
 import lesson_2.IntInterval;
 import lesson_2.Translator;
 
@@ -29,8 +30,13 @@ public class Runner {
                 Translator translate = new Translator();
                 translate.fillInDictionary();
                 break;
-
-
+            case 5:
+                EvenNumber evenNum = new EvenNumber();
+                evenNum.isEven();
+                break;
+            default:
+                System.out.println("Sorry, choose smth else");
+                break;
         }
 
 
