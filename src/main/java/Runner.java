@@ -22,16 +22,15 @@ public class Runner {
                 calc.CalulateAandB();
                 break;
             case 3:
-
+                IntInterval isInt = new IntInterval();
+                isInt.isInterval();
                 break;
             case 4:
                 Translator translate = new Translator();
                 translate.fillInDictionary();
                 break;
-            case 5:
-                IntInterval isInt = new IntInterval();
-                isInt.isInterval();
-                break;
+
+
         }
 
 
