@@ -52,6 +52,10 @@ public class Runner {
                 TenthTask diagonals = new TenthTask();
                 diagonals.actions();
             }
+            case 11 ->{
+                EleventhTask sortRows = new EleventhTask();
+                sortRows.actions();
+            }
             default -> System.out.println("Nonono wrong");
         }
 
