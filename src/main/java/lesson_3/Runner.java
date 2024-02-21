@@ -24,6 +24,10 @@ public class Runner {
                 ThirdTask compareAverage = new ThirdTask();
                 compareAverage.compareArrays();
             }
+            case 4 -> {
+                FourthTask secondEvenArr = new FourthTask();
+                secondEvenArr.checkArr();
+            }
             default -> System.out.println("Nonono wrong");
         }
 
