@@ -32,6 +32,10 @@ public class Runner {
                 FifthTask changeOddInd = new FifthTask();
                 changeOddInd.changeArray();
             }
+            case 6 ->{
+                SixthTask sortString = new SixthTask();
+                sortString.sortedStrArr();
+            }
             default -> System.out.println("Nonono wrong");
         }
 
