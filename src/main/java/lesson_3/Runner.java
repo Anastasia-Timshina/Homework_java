@@ -20,6 +20,10 @@ public class Runner {
                 SecondTask findNumInArr = new SecondTask();
                 findNumInArr.chooseNumsInArr();
             }
+            case 3 -> {
+                ThirdTask compareAverage = new ThirdTask();
+                compareAverage.compareArrays();
+            }
             default -> System.out.println("Nonono wrong");
         }
 
