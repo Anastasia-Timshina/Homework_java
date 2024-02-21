@@ -39,18 +39,18 @@ public class ThirdTask {
 
         System.out.println("First array: ");
         printArr(arr1, size);
-        System.out.println("Second array: ");
+        System.out.println("\nSecond array: ");
         printArr(arr2, size);
 
         double averageFirst = findAverageNum(arr1, size);
         double averageSecond = findAverageNum(arr2, size);
 
         if(averageFirst == averageSecond){
-            System.out.printf("Averages are equal (first: %.2f and second: %.2f", averageFirst, averageSecond);
+            System.out.printf("\nThe averages are equal (first: %.2f and second: %.2f)", averageFirst, averageSecond);
         }else if (averageFirst < averageSecond){
-            System.out.printf("Average of the second is bigger (first: %.2f and second: %.2f", averageFirst, averageSecond);
+            System.out.printf("\nThe average of the second is bigger (first: %.2f and second: %.2f)", averageFirst, averageSecond);
         }else {
-            System.out.printf("Average of the first is bigger (first: %.2f and second: %.2f", averageFirst, averageSecond);
+            System.out.printf("\nThe average of the first is bigger (first: %.2f and second: %.2f)", averageFirst, averageSecond);
         }
     }
 }
