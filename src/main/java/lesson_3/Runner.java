@@ -48,6 +48,10 @@ public class Runner {
                 NinthTask addition = new NinthTask();
                 addition.actions();
             }
+            case 10 ->{
+                TenthTask diagonals = new TenthTask();
+                diagonals.actions();
+            }
             default -> System.out.println("Nonono wrong");
         }
 
