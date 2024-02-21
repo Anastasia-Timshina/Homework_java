@@ -36,6 +36,10 @@ public class Runner {
                 SixthTask sortString = new SixthTask();
                 sortString.sortedStrArr();
             }
+            case 7 ->{
+                SeventhTask sortBubble = new SeventhTask();
+                sortBubble.bubbleSort();
+            }
             default -> System.out.println("Nonono wrong");
         }
 
