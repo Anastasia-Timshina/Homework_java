@@ -7,7 +7,7 @@ import java.util.Scanner;
    которая выводит сообщение о том, входит ли заданное
    число в массив или нет. Пусть число для поиска задается с консоли.
  */
-public class FirstMassive {
+public class ZeroTask {
     Scanner scanner = new Scanner(System.in);
     public void checkMassive(){
         System.out.println("Input the size of a massive");
