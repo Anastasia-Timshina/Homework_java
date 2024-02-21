@@ -28,6 +28,10 @@ public class Runner {
                 FourthTask secondEvenArr = new FourthTask();
                 secondEvenArr.checkArr();
             }
+            case 5 -> {
+                FifthTask changeOddInd = new FifthTask();
+                changeOddInd.changeArray();
+            }
             default -> System.out.println("Nonono wrong");
         }
 
