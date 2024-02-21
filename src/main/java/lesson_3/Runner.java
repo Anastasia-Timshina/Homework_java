@@ -44,6 +44,10 @@ public class Runner {
                 EighthTask multiplication = new EighthTask();
                 multiplication.actions();
             }
+            case 9 ->{
+                NinthTask addition = new NinthTask();
+                addition.actions();
+            }
             default -> System.out.println("Nonono wrong");
         }
 
