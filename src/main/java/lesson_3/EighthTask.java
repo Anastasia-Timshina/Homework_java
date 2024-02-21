@@ -3,7 +3,7 @@ package lesson_3;
 import java.util.Random;
 import java.util.Scanner;
 
-/*8. Умножение двух матриц
+/*8. Умножение двух матриц.
 Создайте два массива целых чисел размером 3х3 (две матрицы).
 Напишите программу для умножения двух матриц.
 (у меня это будут свои квадратные матрицы)
@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class EighthTask {
     Scanner scanner = new Scanner(System.in);
     void fillIn(int[][] matrix, int size, int AorB) {
-        System.out.printf("Choose the type of initialization for the %d matrix (number)\n  1. By index\n  2. By random\n  3. By hands", AorB);
+        System.out.printf("Choose the type of initialization for the %d matrix (number)\n  1. By index\n  2. By random\n  3. By hands\n", AorB);
         int choice = scanner.nextInt();
         switch (choice) {
             case 1 -> {
