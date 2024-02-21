@@ -40,6 +40,10 @@ public class Runner {
                 SeventhTask sortBubble = new SeventhTask();
                 sortBubble.bubbleSort();
             }
+            case 8 ->{
+                EighthTask multiplication = new EighthTask();
+                multiplication.actions();
+            }
             default -> System.out.println("Nonono wrong");
         }
 
