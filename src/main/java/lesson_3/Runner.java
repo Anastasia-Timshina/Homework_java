@@ -16,7 +16,10 @@ public class Runner {
                 FirstTask excludeNumber = new FirstTask();
                 excludeNumber.changeArray();
             }
-
+            case 2 -> {
+                SecondTask findNumInArr = new SecondTask();
+                findNumInArr.chooseNumsInArr();
+            }
             default -> System.out.println("Nonono wrong");
         }
 
