@@ -6,15 +6,18 @@ public class Runner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Choose the task");
-        int choise = scanner.nextInt();
-        switch(choise){
-            case 1:
-                FirstMassive mas = new FirstMassive();
-                mas.checkMassive();
-                break;
-            default:
-                System.out.println("Nonono wrong");
-                break;
+        int choice = scanner.nextInt();
+        switch (choice) {
+            case 0 -> {
+                ZeroTask existNumber = new ZeroTask();
+                existNumber.checkMassive();
+            }
+            case 1 -> {
+                FirstTask excludeNumber = new FirstTask();
+                excludeNumber.changeArray();
+            }
+
+            default -> System.out.println("Nonono wrong");
         }
 
     }
