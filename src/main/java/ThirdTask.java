@@ -7,14 +7,12 @@
 public class ThirdTask {
     void findABC(){
         String str = "teamwithsomeofexcersicesabcwanttomakeitbetter";
-        int i = -1;
-        String s1;
-        String s2;
 
-        i = str.indexOf("abc");
+        int i = str.indexOf("abc");
 
-        s1 = str.substring(0, i);
-        s2 = str.substring(i+3);
+        String s1 = str.substring(0, i);
+        String s2 = str.substring(i+3);
+
         System.out.printf("Your str: %s\nYour s1: %s\nYour s2: %s", str, s1, s2);
     }
 }
