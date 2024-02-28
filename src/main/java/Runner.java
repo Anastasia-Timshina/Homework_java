@@ -18,6 +18,10 @@ public class Runner {
                 ThirdTask strABC = new ThirdTask();
                 strABC.findABC();
             }
+            case 4 -> {
+                FourthTask strToChange = new FourthTask();
+                strToChange.replaceDay();
+            }
             default -> System.out.println("Wrong option");
         }
 
