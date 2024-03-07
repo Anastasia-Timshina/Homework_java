@@ -43,6 +43,19 @@ public class Runner {
                 card3.printCardInfo();
 
             }
+            case 3 -> {
+                ATMMachine atm = new ATMMachine(10, 10, 10);
+
+                atm.addMoney(5, 5, 5);
+
+                boolean withdrawalSuccess = atm.withdrawMoney(350);
+                if (withdrawalSuccess) {
+                    System.out.println("Withdrawal successful");
+                } else {
+                    System.out.println("Withdrawal failed");
+                }
+
+            }
         }
     }
 }
