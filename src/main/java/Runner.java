@@ -4,7 +4,7 @@ public class Runner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Choose the task: (1-2)");
+        System.out.println("Choose the task: (1-3)");
         int choice = scanner.nextInt();
 
         switch (choice) {
